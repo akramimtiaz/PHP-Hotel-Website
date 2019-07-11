@@ -1,0 +1,27 @@
+<?php 
+	ob_start();
+	session_start();
+
+	header("Cache-Control: no-cache");
+  	header("Expires: -1");
+
+  	if(!isset($page_title)){
+  		$page_title = 'Home';
+  	}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title><?php echo $page_title; ?></title>
+	<link rel="stylesheet" type="text/css" href="includes/layout.css">
+	<script type="text/javascript" src="includes/input_validation.js"></script>
+</head>
+<body>
+<div id="Header">Western Sydney Hotel</div>
+	<div id="Content">
+<!--End Of Header-->
+
+
+
+	

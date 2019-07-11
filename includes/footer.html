@@ -1,0 +1,32 @@
+	</div>
+<div id="Menu">
+<a href="index.php" title="Home">Home</a><br/>
+<?php 
+	if(isset($_SESSION['username'])){
+		
+		if(!isset($_SESSION['admin'])){
+			echo '<a href="search.php" title="Search Rooms">Search Rooms</a><br/>';
+			echo '<a href="book.php" title="Book Rooms">Book Rooms</a><br/>';
+		}
+		
+		if(isset($_SESSION['admin'])){
+			echo '<a href="pricing.php" title="Change Pricing">Change Pricing</a><br/>';
+			echo '<a href="browse.php" title="Browse Database Tables">Browse Tables</a><br/>';
+    	}
+
+    	echo '<a href="logout.php" title="Logout">Logout</a><br/>';
+
+	}else{
+		echo '<a href="register.php" title="Customer Registration">Customer Registration</a><br/>';
+		echo '<a href="customerlogin.php" title="Customer Login">Customer Login</a><br/>';
+		echo '<a href="adminlogin.php" title="Administrator Login">Administrator Login</a><br/>';
+	}	
+?>	
+</div>
+</body>
+<!--End Of Footer-->
+</html>
+<?php 
+ob_end_flush();
+?>
+

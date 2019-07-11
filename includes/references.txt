@@ -1,0 +1,12 @@
+#<--------REFERENCES---------->#
+
+CSS Layout template (although heavily modified, please refer to pdf):
+http://www.larryullman.com/books/php-and-mysql-for-dynamic-web-sites-visual-quickpro-guide-4th-edition/
+
+Table Layout with hover cell effect:
+http://cssmenumaker.com/blog/stylish-css-tables-tutorial
+
+Index page image:
+https://wallpaperscraft.com/image/hotel_room_bed_furniture_luxury_70053_3840x1200.jpg
+
+#<--------END OF REFERENCES---------->#
